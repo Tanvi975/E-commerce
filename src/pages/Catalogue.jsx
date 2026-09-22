@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useDispatch } from 'react-redux'
 import { addToCart } from '../redux/CartSlice'
-import { fetchProducts } from '..ProductApi'
+import { fetchProducts } from '../productApi'
 
 function Catalogue() {
   const [products, setProducts] = useState([])
