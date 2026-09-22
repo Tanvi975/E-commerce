@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux'
-import { removeFromCart, increaseQty, decreaseQty } from '../redux/cartSlice'
+import { removeFromCart, increaseQty, decreaseQty } from '../redux/CartSlice'
 import { Link } from 'react-router-dom'
 
 function Cart() {
